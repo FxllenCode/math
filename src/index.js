@@ -1,7 +1,9 @@
-import pythagorean from './lib/pythagorean';
+const pythagorean = require('./lib/pythagorean');
+const quadratic = require('./lib/quadratic');
 
 const math = {
   pythagorean,
+  quadratic,
 };
 
-export default math;
+module.exports = math;
